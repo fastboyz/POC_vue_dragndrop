@@ -1,0 +1,19 @@
+.parent {
+  border: 2px solid #dfa612;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  margin-bottom: 10px;
+  font-weight: bold;
+
+  .draggable {
+    background-color: teal;
+    padding: 10px;
+  }
+
+  .dropzone {
+    background-color: greenyellow;
+    padding: 10px;
+  }
+}

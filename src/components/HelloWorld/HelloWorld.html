@@ -1,0 +1,12 @@
+<div class='parent'>
+
+  <div class="itemzone" id="itemzone" @drop="onDropInItemZone" @dragover="onDragOver">
+    <span class="draggable" id='draggableSpan' draggable="true" @dragstart="onDragStart">draggable</span> 
+    <span class="draggable" id='draggableSpan1' draggable="true" @dragstart="onDragStart">draggable1</span>
+  </div>
+
+  <div id="dropzone" class="dropzone" @drop="onDropInDropZone" @dragover="onDragOver">
+    <span>dropzone</span>
+  </div>
+
+</div>
